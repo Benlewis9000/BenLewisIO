@@ -29,6 +29,15 @@ header {
     align-content: center;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: white;
+}
+
 .header-title {
     flex: 1;
     align-self: center;
@@ -100,6 +109,7 @@ nav {
 .pane h2 {
     font-size: 2rem;
     padding: 0.5rem;
+    font-weight: 100;
 }
 
 #home {
@@ -119,7 +129,6 @@ nav {
 }
 
 .offset h2 {
-    font-weight: 100;
     align-self: flex-end;
     animation-duration: 1.5s;
     animation-name: slidein-right;
